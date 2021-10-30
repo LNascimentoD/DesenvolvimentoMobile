@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/Entrega1/app/src/main/res/drawable/my_bg.xml" value="0.2203125" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/Entrega1/app/src/main/res/layout/activity_2.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/Entrega1/app/src/main/res/layout/activity_fragment_lojas.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/Entrega1/app/src/main/res/layout/activity_fragment_produtos.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/Entrega1/app/src/main/res/layout/activity_img.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/Entrega1/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/Entrega1/app/src/main/res/layout/grid_layout.xml" value="0.15625" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/Entrega1/app/src/main/res/menu/options_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/Entrega1/app/src/main/res/menu/popup_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

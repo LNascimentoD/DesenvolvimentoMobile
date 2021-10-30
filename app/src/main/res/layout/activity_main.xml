@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="594dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white"
+            android:textOff="@string/toggle_button_off"
+            android:textOn="@string/toggle_button_on" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:autofillHints="@string/edit_text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/edit_text" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:text="@string/autocomplete_edit_text" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="61dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_button_termo" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_button_noticias" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button_dropdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_dropdown" />
+
+        <TextView
+            android:id="@+id/textView_longpress"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="@drawable/my_bg"
+            android:backgroundTint="@color/gray"
+            android:gravity="center"
+            android:text="@string/text_view_longclick"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_img" />
+
+        <Button
+            android:id="@+id/button_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_navigation" />
+
+        <ToggleButton
+            android:id="@+id/button_som"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOff="@string/button_som_toca"
+            android:textOn="@string/button_som_parar" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

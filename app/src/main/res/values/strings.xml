@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Entrega 1</string>
+    <string name="toggle_button_on">On</string>
+    <string name="toggle_button_off">Off</string>
+    <string name="edit_text">Nome</string>
+    <string name="autocomplete_edit_text">Sobrenome</string>
+    <string name="radio_button_termo">Aceita os termos de compromisso?</string>
+    <string name="radio_button_noticias">Aceita receber novidades no email?</string>
+    <string name="menu_config">Configurações</string>
+    <string name="menu_ajuda">Ajuda</string>
+    <string name="button_dropdown">Mostrar opções</string>
+    <string name="popup_react">ReactJS</string>
+    <string name="popup_vue">VueJS</string>
+    <string name="popup_angular">AngularJS</string>
+    <string name="text_view_longclick">Pressione e segure!</string>
+    <string name="button_img">Surpresa!</string>
+    <string name="button_navigation">Próxima tela!</string>
+    <string name="tab_lojas">Lojas!</string>
+    <string name="tab_produtos">Produtos!</string>
+    <string name="button_som_toca">Tocar!</string>
+    <string name="button_som_parar">Parar!</string>
+    <string name="grid">Grid!</string>
+
+    <string-array name="pessoas">
+        <item>Chris Hemsworth</item>
+        <item>Jennifer Lawrence</item>
+        <item>Jessica Alba</item>
+        <item>Brad Pitt</item>
+        <item>Megan Fox</item>
+    </string-array>
+</resources>
